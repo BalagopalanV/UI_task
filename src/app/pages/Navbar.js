@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../scss/main.scss";
+import "../scss/main.scss";
 import Image from "next/image";
 import purpleStart from "../asset/image/img_purple_start.svg";
 import searchIcon from "../asset/icon/icon_search.svg";

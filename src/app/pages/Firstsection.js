@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../scss/main.scss";
+import "../scss/main.scss";
 import Imagecontent from "../component/Imagecontent";
 import Image from "next/image";
 import Button from "../component/Button";
