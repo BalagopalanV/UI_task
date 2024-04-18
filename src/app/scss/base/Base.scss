@@ -1,0 +1,48 @@
+@import "../abstract/Variables.scss";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  .purple-image {
+    position: absolute;
+    width: 6%;
+    height: 24%;
+    top: 88%;
+    left: 4%;
+    transform: rotate(70deg);
+  }
+  .product-status-contianer {
+    height: 25vh;
+    max-height: 150px;
+    width: 80rem;
+    border: 2px solid $review-border-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left-style: none;
+    border-right-style: none;
+    .content {
+      width: 40rem;
+      height: 6rem;
+      display: flex;
+      gap: 5rem;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    .product-status-contianer {
+      height: 10vh;
+    }
+  }
+}

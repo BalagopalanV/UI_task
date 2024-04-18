@@ -1,0 +1,19 @@
+@import "../abstract/Variables.scss";
+.main-container {
+  box-shadow: 5px 5px $color-black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  padding: 0.9rem;
+  position: relative;
+  top: -8rem;
+  left: 10rem;
+  z-index: 1;
+  background-image: $btn-linear-color;
+
+  label {
+    font-family: $font-family-Ai;
+    color: $color-white;
+  }
+}

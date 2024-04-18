@@ -1,0 +1,15 @@
+@import "../abstract/Variables.scss";
+.text-and-value-container {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  .value-text {
+    font-size: $font-l;
+  }
+  .lable {
+    font-size: $font-para;
+  }
+}

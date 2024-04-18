@@ -1,0 +1,60 @@
+@import "../abstract/Variables.scss";
+
+.nav-bar {
+  height: 13vh;
+  width: 100rem;
+  position: relative;
+  border-bottom: 1.5px solid $color-lightblack;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_container {
+    width: 56rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    h1 {
+      font-family: $font-family-Ai;
+      font-size: $font-s;
+    }
+    &_label {
+      width: max-content;
+      display: flex;
+      margin-left: auto;
+      .nav-item {
+        padding: 1rem;
+        font-family: $font-family-popins;
+        font-size: $font-para;
+        color: $color-lightblack;
+      }
+    }
+
+    &_search-input {
+      width: 7rem;
+      height: 2rem;
+      background-color: $search-input-color;
+      padding: 0rem;
+      box-shadow: 5px 5px $color-lightblack;
+      display: flex;
+      align-items: center;
+
+      &_search-icon {
+        padding: 0.9rem;
+        padding: 7px;
+      }
+      &_shopping-cart_icon {
+        margin-left: 4rem;
+        width: 0.9em;
+      }
+      &_profile_icon {
+        margin-left: 2.5em;
+        width: 0.9em;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+  .nav-bar {
+    height: 8vh;
+  }
+}

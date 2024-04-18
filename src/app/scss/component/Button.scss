@@ -1,0 +1,54 @@
+@import "../abstract/Variables.scss";
+.btn-container {
+  // height: 3rem;
+  // display: flex;
+  // align-items: center;
+  // width: 16rem;
+  // justify-content: space-between;
+  // position: relative;
+  // top: 4.5rem;
+
+  display: flex;
+  align-items: center;
+  width: 16rem;
+  justify-content: space-between;
+  position: relative;
+  /* top: 4.5rem;*/
+
+  .btn-content {
+    gap: 1rem;
+    background-image: $btn-linear-color;
+    width: max-content;
+    padding: 0.9rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 8px;
+    .btn-text {
+      color: $color-white;
+      font-family: $font-family-Exo_Regular;
+      font-weight: 500;
+    }
+    .img-arrow {
+      width: 0.9rem;
+      height: 1.3rem;
+      object-fit: contain;
+      margin-left: 0.5rem;
+    }
+  }
+  .play-icon-container {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    background-color: $color-lightblack;
+    border-radius: 25px;
+    justify-content: center;
+
+    .img-polygon {
+      width: 0.77rem;
+      height: 1rem;
+      object-fit: contain;
+      margin-left: 0.5rem;
+    }
+  }
+}

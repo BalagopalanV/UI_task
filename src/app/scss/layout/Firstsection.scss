@@ -1,0 +1,178 @@
+.first-section {
+  height: 86vh;
+  position: relative;
+  max-height: 550px;
+  .body {
+    height: 100%;
+    display: flex;
+    .right-content {
+      width: 35rem;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      justify-content: space-between;
+      left: 8rem;
+      z-index: 2;
+      height: 25rem;
+      top: 7rem;
+      .heading {
+        font-size: $font-xxl;
+        color: $font-xxl-color;
+      }
+      .para-contianer {
+        display: flex;
+        width: 22rem;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2rem;
+        .vl {
+          border-left: 3px solid $vertical-line-color;
+          height: 3rem;
+        }
+        .para {
+          width: 20rem;
+          font-size: $font-para;
+          color: $gray-para-color;
+        }
+      }
+    }
+    .left-content {
+      width: 36rem;
+      display: flex;
+      position: relative;
+      top: 3rem;
+      gap: 3rem;
+      .right-image-content {
+        width: 18rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        position: relative;
+        height: 35rem;
+        .image-content {
+          width: 17rem;
+          height: 27rem;
+          max-width: 300px;
+          max-height: 500px;
+        }
+        .bag-container {
+          width: 2.5rem;
+          height: 2.5rem;
+          position: absolute;
+          background-color: $bag-icon-bgColor;
+          border-radius: 50%;
+          left: 1rem;
+          top: 1.5rem;
+          z-index: 1;
+          text-align: center;
+          .bag-image {
+            width: 1rem;
+            height: 2.3rem;
+            object-fit: contain;
+            transform: rotate(30deg);
+          }
+        }
+        .linear-container {
+          width: 4rem;
+          height: 4rem;
+          position: absolute;
+          background-image: $star-linear-bgColor;
+          border-radius: 2rem;
+          left: 0rem;
+          z-index: 1;
+          text-align: center;
+          bottom: 9rem;
+          .linear-image {
+            width: 3.3rem;
+            height: 4rem;
+            object-fit: contain;
+          }
+        }
+        .dot-container {
+          position: absolute;
+          width: 6rem;
+          height: 17%;
+          border-radius: 5rem;
+          top: 23rem;
+          bottom: 20%;
+          left: 12rem;
+          z-index: 0;
+          height: 6rem;
+          text-align: center;
+          .dotted-image {
+            width: 5.3rem;
+            height: 5.3rem;
+            object-fit: contain;
+          }
+        }
+        .arrow-contianer {
+          display: flex;
+          align-items: center;
+          width: 18rem;
+          justify-content: flex-end;
+          gap: 1rem;
+        }
+      }
+      .left-image-content {
+        width: 16rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        top: 5%;
+        height: 35rem;
+        .image-content {
+          width: 16rem;
+          height: 27rem;
+          max-width: 300px;
+          max-height: 500px;
+        }
+        .circle-border {
+          width: 20rem;
+          height: 20rem;
+          border-radius: 10rem;
+          position: absolute;
+          top: 0%;
+          border: 1.3px solid $color-lightblack;
+          left: 3rem;
+          .yellow-star {
+            color: transparent;
+            position: absolute;
+            width: 10%;
+            height: 10%;
+            top: -5%;
+            left: 45%;
+          }
+        }
+        .heart-container {
+          width: 2.5rem;
+          height: 2.5rem;
+          position: absolute;
+          top: 13rem;
+          border-radius: 3rem;
+          background-color: $heart-icon-bgColor;
+          left: -1rem;
+          z-index: 1;
+          text-align: center;
+          .heart-image {
+            width: 1.5rem;
+            height: 2.6rem;
+            object-fit: contain;
+            transform: rotate(-13deg);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (width >=1440px) {
+  .first-page {
+    height: 60vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+  .first-section {
+    height: 40vh;
+  }
+}
