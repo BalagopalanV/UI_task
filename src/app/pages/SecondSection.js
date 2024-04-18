@@ -19,7 +19,7 @@ function Secondsection() {
             Collections
           </h1>
         </div>
-        <Image src={purpleStar} className="purple-star" />
+        <Image src={purpleStar} className="purple-star" alt="purple" />
         <div className="imageContainer">
           <Imagecontent imageUrl={secondSectionImg} />
         </div>

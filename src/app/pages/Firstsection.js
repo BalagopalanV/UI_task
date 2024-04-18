@@ -43,28 +43,40 @@ function Firstsection() {
               <Imagecontent imageUrl={imageRight} className="image" />
             </div>
             <div className="arrow-contianer">
-              <Image src={grayArrow} className="gray-arrrow" />
-              <Image src={blackArrow} className="black-arrrow" />
+              <Image src={grayArrow} alt="gray" className="gray-arrrow" />
+              <Image src={blackArrow} alt="black" className="black-arrrow" />
             </div>
             <div className="bag-container">
-              <Image src={bagImage} className="bag-image" />
+              <Image src={bagImage} alt="bag" className="bag-image" />
             </div>
             <div className="linear-container">
-              <Image src={startLinear} className="linear-image" />
+              <Image src={startLinear} alt="linear" className="linear-image" />
             </div>
             <div className="dot-container">
-              <Image src={dottedImage} className="dotted-image" />
+              <Image
+                src={dottedImage}
+                alt="dotted-image"
+                className="dotted-image"
+              />
             </div>
           </div>
           <div className="left-image-content">
             <div className="circle-border">
-              <Image src={yellowStart} className="yellow-star" />
+              <Image
+                src={yellowStart}
+                alt="yellow-star"
+                className="yellow-star"
+              />
             </div>
             <div className="image-content">
               <Imagecontent imageUrl={imageLeft} />
             </div>
             <div className="heart-container">
-              <Image src={heartImage} className="heart-image" />
+              <Image
+                src={heartImage}
+                className="heart-image"
+                alt="heart-image"
+              />
             </div>
           </div>
         </div>

@@ -20,8 +20,12 @@ function Navbar() {
       <div className="nav-bar_container">
         <h1>Rainyey</h1>
         <div className="nav-bar_container_label">
-          {title.map((item) => {
-            return <h4 className="nav-item">{item}</h4>;
+          {title.map((item, i) => {
+            return (
+              <h4 key={i} className="nav-item">
+                {item}
+              </h4>
+            );
           })}
         </div>
         <div className="nav-bar_container_search-input">
