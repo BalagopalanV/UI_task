@@ -1,5 +1,5 @@
 import React from "react";
-import "../scss/main.scss";
+// import "../scss/main.scss";
 import Button from "../component/Button";
 import Image from "next/image";
 import startLinear from "../asset/image/img_linear_star.svg";

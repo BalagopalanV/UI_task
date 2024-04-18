@@ -6,7 +6,7 @@ import secondSectionImg from "../asset/image/img_second_section.svg";
 import purpleStar from "../asset/image/img_purple_start.svg";
 import Al_Veshion_PersonalUseOnly from "../../../public/fonts/Al_Veshion_PersonalUseOnly";
 import Poppins_Regular from "../../../public/fonts/Poppins_Regular";
-import "../scss/main.scss";
+// import "../scss/main.scss";
 function Secondsection() {
   return (
     <div className="second-page">
