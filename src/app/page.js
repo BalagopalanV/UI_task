@@ -1,4 +1,4 @@
-import "../app/scss/Main.scss";
+import "../app/scss/main.scss";
 import Firstsection from "./pages/Firstsection";
 import Secondsection from "./pages/SecondSection";
 import Thirdsection from "./pages/Thirdsection";
